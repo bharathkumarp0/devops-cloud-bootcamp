@@ -16,8 +16,7 @@ export default function Footer() {
           </ul>
         </nav>
         <div>
-          <p className="mb-3 font-semibold">Contact</p>
-          <p className="text-sm text-white/70">{LINKS.email ? <a href={`mailto:${LINKS.email}`} className="hover:text-cyan">{LINKS.email}</a> : 'Contact details coming soon'}</p>
+          
           <div className="mt-3 flex gap-3">
             {LINKS.linkedin && <a aria-label="LinkedIn" href={LINKS.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-cyan"><Linkedin size={20} /></a>}
             {LINKS.github && <a aria-label="GitHub" href={LINKS.github} target="_blank" rel="noopener noreferrer" className="hover:text-cyan"><Github size={20} /></a>}
